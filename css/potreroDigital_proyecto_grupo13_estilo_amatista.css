@@ -1,7 +1,8 @@
 *{
   justify-content: center;
   box-sizing: border-box;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Grandstander', cursive;
+  font-family: 'Righteous', cursive;
 
 
 }
@@ -40,7 +41,7 @@ header{
 
 .navbar {
   width: 100%;
-  font-weight: 900;
+  font-weight: 200;
   flex-wrap: wrap;
 
 
@@ -100,12 +101,16 @@ header{
 
 footer {
   display: flex;
-  align-self: flex-end;
+  height: 10vh;
   width: 100%;
   background-color: violet;
-  position: absolute;
-  bottom: 0;
-  height: 6vh;
+  padding-top: 10px;
+  margin-top: 10px;
+  text-align: justify;
+  }
+.footer {
+  width: 100%;
+    text-align: center;
 }
 
 
@@ -156,10 +161,8 @@ main {
     }
 @media only screen and (max-width: 600px) {
   footer {
-      text-align: center;
-      align-content: flex-end;
+
       width: 100%;
-      display: inline-block;
-      flex-direction: row;
+      padding-top: 5px;
 
     }
