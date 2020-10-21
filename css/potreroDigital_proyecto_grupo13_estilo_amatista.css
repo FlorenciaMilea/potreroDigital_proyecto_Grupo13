@@ -60,7 +60,7 @@ font-size: 1.5rem;
 
 
 .navbar.navbar-4 .navbar-toggler-icon {
-background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=BFE100');
+background-image: url('https://mdbootstrap.com/img/svg/hamburger7.svg?color=black');
 text-decoration: overline;
 }
 
@@ -79,7 +79,7 @@ text-decoration: overline;
 .principal1 {
   display: flex;
   flex-wrap: wrap;
-  align-content: stretch;
+  text-align:center;
   width: 100%;
   height: 60vh;
 
@@ -90,6 +90,7 @@ text-decoration: overline;
   height: 60%;
   margin: 10px;
   display: inline-block;
+  text-align:center;
 
 }
 
@@ -99,6 +100,7 @@ text-decoration: overline;
   height: 60%;
   margin: 10px;
   display: inline-block;
+  text-align:center;
 }
 
 .minigaleria {
@@ -116,7 +118,27 @@ text-decoration: overline;
   margin: 5px;
   padding: auto;
   }
-
+.texto {
+  height: auto;
+  margin: 15px;
+}
+.promo img{
+  height: 200px;
+  width: 200px;
+  border: 5px solid #BB8FCE;
+  object-fit: cover;
+  margin: 5px;
+  padding: auto;
+  text-align: justify;
+}
+.imgpromo img {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #BB8FCE;
+  object-fit: cover;
+  margin: 5px;
+  padding: auto;
+  }
 footer {
   display: flex;
   height: 10vh;
@@ -130,11 +152,16 @@ footer {
 .footer {
   width: 100%;
     text-align: center;
+    margin-top: 10px;
 }
 
 .galeria-prod {
-  flex-direction: row;
+  display: inline-block;
   flex-wrap: wrap;
+  text-align:center;
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
 }
 
 .galeria-prod img {
@@ -146,6 +173,7 @@ footer {
 
 .historia {
   text-align:center;
+  height: auto;
   width: 90%;
   padding: 10px;
   margin: 20px;
@@ -161,6 +189,23 @@ footer {
   background-color: white;
 }
 }
+.marcas {
+  display: inline-block;
+  flex-wrap: wrap;
+  text-align:center;
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+
+}
+.marcas img {
+  height: 200px;
+  width: 200px;
+  border: 5px solid #BB8FCE;
+  object-fit: cover;
+  margin: 5px;
+  padding: auto;
+  }
 
 @media only screen and (max-width: 768px) {
 main {
