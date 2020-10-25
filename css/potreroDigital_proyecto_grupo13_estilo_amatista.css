@@ -28,7 +28,6 @@ header{
 
 }
 .banner {
-
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -44,12 +43,7 @@ header{
 .navbar {
   width: 100%;
   font-weight: 200;
-  flex-wrap: wrap;
-}
 
-.navbar .navbar-light .navbar-4 {
-  background-color: pink;
-  font-size: 1.5rem;
 }
 
 .navbar-nav {
@@ -77,12 +71,12 @@ text-decoration: overline;
   margin: 15px;
 
 }
-.principal1 {
+main .principal1 {
   display: flex;
   flex-wrap: wrap;
   text-align:center;
   width: 100%;
-  height: 60vh;
+  height: 40vh;
 
 }
 #inicio {
@@ -91,7 +85,8 @@ text-decoration: overline;
   height: 60%;
   margin: 10px;
   display: inline-block;
-  text-align:center;
+  text-align: center;
+  object-fit: cover;
 
 }
 
@@ -102,20 +97,23 @@ text-decoration: overline;
   margin: 10px;
   display: inline-block;
   text-align:center;
+  object-fit: cover;
 }
 
 .minigaleria {
   display: flex;
-  align-content: space-around;
+  align-content: center;
   flex-wrap: wrap;
   padding-top: 10px;
-  align-content: stretch;
+  text-align: center;
+  object-fit: cover center;
+
 }
 .minigaleria img {
   height: 200px;
   width: 200px;
   border: 5px solid #BB8FCE;
-  object-fit: cover;
+  object-fit: cover center;
   margin: 5px;
   padding: auto;
   }
@@ -127,7 +125,7 @@ text-decoration: overline;
   height: 200px;
   width: 200px;
   border: 5px solid #BB8FCE;
-  object-fit: cover;
+  object-fit: cover center;
   margin: 5px;
   padding: auto;
   text-align: justify;
@@ -136,7 +134,7 @@ text-decoration: overline;
   height: 200px;
   width: 200px;
   border: 5px solid #BB8FCE;
-  object-fit: cover;
+  object-fit: cover center;
   margin: 5px;
   padding: auto;
   }
@@ -155,33 +153,40 @@ footer {
     text-align: center;
     margin-top: 10px;
 }
-.nuestrosprod h3{
-  height: 10vh;
-  width: 100%;
-  background-color: red;
-  display: inline-block;
-}
+
 .nuestrosprod {
-  display: flex;
-  align-content: space-around;
+  display: inline-flex;
   flex-wrap: wrap;
   padding-top: 10px;
-  align-content: stretch;
+  align-content: center;
+
 }
-.nuestrosprod img {
+.prod img{
   height: 200px;
   width: 200px;
   border: 5px solid #BB8FCE;
   object-fit: cover;
-  margin: 5px;
+  margin: 10px;
   padding: auto;
   }
+  .MARCAS {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    align-content: center;
 
-.galeria-prod img {
-  height: 300px;
-  width: 300px;
-  border: 5px solid #BB8FCE;
-  object-fit: cover;
+  }
+  .marca img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #BB8FCE;
+    object-fit: cover;
+    margin: 10px;
+    padding: auto;
+    }
+.container-fluid .productos {
+
+
 }
 
 .historia {
@@ -221,9 +226,12 @@ footer {
   }
 
 .Comprar {
+    display: flex;
+    flex-direction: column;
+
     text-align:center;
-    height: auto;
-    width: 90%;
+    height: 70vh;
+    width: 95%;
     padding: 10px;
     margin: 20px;
     background-color: white;
