@@ -81,69 +81,38 @@ a:hover {
   background-color: #F446B5;
 }
 
-main .principal1 {
-  display: flex;
-  flex-wrap: wrap;
-  text-align:center;
-  width: 100%;
-  height: 40vh;
-  object-fit: cover;
 
-}
-#inicio {
-  padding: 10px;
-  width: 45%;
-  height: 60%;
-  margin: 10px;
-  display: inline-block;
-  text-align: center;
-  object-fit: cover;
+  .MARCAS {
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    align-content: center;
+    object-fit: cover;
 
-}
-
-#aside {
-  padding: 10px;
-  width: 45%;
-  height: 60%;
-  margin: 10px;
-  display: inline-block;
-  text-align:center;
-  object-fit: cover;
-}
-
-.minigaleria {
-  display: flex;
-  align-content: center;
-  flex-wrap: wrap;
-  padding-top: 10px;
-  text-align: center;
-  object-fit: cover center;
-
-}
-.minigaleria img {
-  height: 200px;
-  width: 200px;
-  border: 5px solid #BB8FCE;
-  object-fit: cover center;
-  margin: 5px;
-  padding: auto;
   }
+  .marca img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid #BB8FCE;
+    object-fit: cover;
+    margin: 10px;
+    padding: auto;
+    }
+    footer {
+      display: flex;
+      height: 10vh;
+      width: 100%;
+      background-color: #FD51BF;
+      padding-top: 10px;
+      margin-top: 10px;
+      text-align: justify;
+      }
 
-footer {
-  display: flex;
-  height: 10vh;
-  width: 100%;
-  background-color: #FD51BF;
-  padding-top: 10px;
-  margin-top: 10px;
-  text-align: justify;
-  }
-
-.footer {
-  width: 100%;
-    text-align: center;
-    margin-top: 10px;
-}
+    .footer {
+      width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
 
 
 @media only screen and (max-width: 800px) {
